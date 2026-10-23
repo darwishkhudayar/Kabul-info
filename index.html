@@ -1,11 +1,430 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Discover Kabul's beautiful places, rich history, and culture with Kabul Info.">
+    <title>Kabul Info | Discover the Heart of Afghanistan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+
+
 </head>
+
 <body>
-    
+
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Kabul<span>Info.</span></a>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon" aria-label="Toggle navigation">
+                ☰
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#places">Places</a></li>
+                <li><a href="#past">Kabul Then</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="hero-label">Discover the Heart of Afghanistan</span>
+
+                    <h1>Welcome to <span>Kabul</span>,<br> a City of History</h1>
+
+                    <p>
+                        Explore the beautiful landscapes, rich culture,
+                        historic landmarks, and unforgettable stories of
+                        Afghanistan's remarkable capital.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#places" class="btn">Explore Kabul &rarr;</a>
+                        <a href="#history" class="btn btn-light">Discover Its History</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-decoration" aria-hidden="true"></div>
+        </section>
+
+        <!-- TOURIST PLACES -->
+        <section class="section places" id="places">
+            <div class="container">
+                <div class="section-heading">
+                    <span>Explore the City</span>
+                    <h2>Beautiful Places in Kabul</h2>
+                    <p>
+                        Discover the gardens, mountains, lakes, and landmarks
+                        that make Kabul a memorable city.
+                    </p>
+                </div>
+
+                <div class="places-grid">
+
+                    <article class="place-card">
+                        <div class="place-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800&q=80"
+                                alt="Green landscape and nature"
+                                loading="lazy">
+                        </div>
+                        <div class="place-info">
+                            <span class="place-tag">Nature</span>
+                            <h3>Babur's Garden</h3>
+                            <p>
+                                A historic garden known for its terraces,
+                                trees, peaceful atmosphere, and architecture.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="place-card">
+                        <div class="place-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
+                                alt="Majestic mountain peaks"
+                                loading="lazy">
+                        </div>
+                        <div class="place-info">
+                            <span class="place-tag">Mountains</span>
+                            <h3>Kabul Mountains</h3>
+                            <p>
+                                Discover the rugged mountain scenery
+                                surrounding the capital city.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="place-card">
+                        <div class="place-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=800&q=80"
+                                alt="Beautiful evening sky over a landscape"
+                                loading="lazy">
+                        </div>
+                        <div class="place-info">
+                            <span class="place-tag">Landmarks</span>
+                            <h3>Shah-Do Shamshira</h3>
+                            <p>
+                                A distinctive mosque near the Kabul River,
+                                notable for its architecture and history.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="place-card">
+                        <div class="place-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=800&q=80"
+                                alt="Sunlight shining through a peaceful garden"
+                                loading="lazy">
+                        </div>
+                        <div class="place-info">
+                            <span class="place-tag">Gardens</span>
+                            <h3>Istalif</h3>
+                            <p>
+                                A historic village near Kabul, known for
+                                traditional pottery and beautiful scenery.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="place-card">
+                        <div class="place-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+                                alt="Scenic countryside and hills"
+                                loading="lazy">
+                        </div>
+                        <div class="place-info">
+                            <span class="place-tag">Scenery</span>
+                            <h3>Qargha Lake</h3>
+                            <p>
+                                A well-known recreational area outside
+                                central Kabul, surrounded by hills.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="place-card">
+                        <div class="place-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=800&q=80"
+                                alt="Historic architectural structures"
+                                loading="lazy">
+                        </div>
+                        <div class="place-info">
+                            <span class="place-tag">Culture</span>
+                            <h3>Kabul Old City</h3>
+                            <p>
+                                Explore traditional neighborhoods,
+                                local markets, and the city's cultural heritage.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- KABUL THREE YEARS AGO -->
+        <section class="section past-section" id="past">
+            <div class="container past-layout">
+                <div class="past-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1000&q=85"
+                        alt="Landscape representing memories of the past"
+                        loading="lazy">
+                    <div class="image-caption">Kabul Through Time</div>
+                </div>
+
+                <div class="past-content">
+                    <span class="place-tag">A Look Back</span>
+                    <h2>Kabul Around Three Years Ago</h2>
+
+                    <p>
+                        Kabul has experienced significant political,
+                        social, and economic changes over the years.
+                        Looking back helps us understand how life,
+                        communities, and the city have evolved.
+                    </p>
+
+                    <p>
+                        In 2023, residents continued to navigate changes
+                        in employment, education, public life, and daily
+                        living conditions. Personal experiences varied
+                        considerably across communities.
+                    </p>
+
+                    <p>
+                        Photographs, news archives, and stories from
+                        residents can help preserve an accurate picture
+                        of Kabul during this period.
+                    </p>
+
+                    <div class="past-note">
+                        <strong>Preserving memories</strong><br>
+                        This section can feature authentic photographs
+                        from 2023 alongside recent photographs of the
+                        same locations for a meaningful comparison.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HISTORY -->
+        <section class="section history" id="history">
+            <div class="container">
+                <div class="section-heading">
+                    <span>Our Heritage</span>
+                    <h2>The History of Kabul</h2>
+                    <p>
+                        A city shaped by centuries of trade, culture,
+                        empires, and remarkable historical events.
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <h3>Ancient Kabul</h3>
+                        <p>
+                            Kabul's history stretches back more than
+                            two millennia. Its strategic position made
+                            the region important to trade and cultural
+                            exchange across Central and South Asia.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h3>Medieval Period</h3>
+                        <p>
+                            The city was influenced by successive
+                            kingdoms and empires, including periods
+                            associated with Islamic culture and regional
+                            trade networks.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h3>16th Century</h3>
+                        <p>
+                            Babur, founder of the Mughal Empire,
+                            had a strong connection to Kabul and chose
+                            it as his burial place. His garden remains
+                            an important historical landmark.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h3>19th and 20th Centuries</h3>
+                        <p>
+                            Kabul became central to Afghanistan's
+                            political development and gradually
+                            expanded into a modern capital.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h3>21st Century</h3>
+                        <p>
+                            Kabul has faced conflict and major
+                            political changes while remaining an
+                            important center of Afghan culture,
+                            society, and national life.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="contact-layout">
+
+                    <div class="contact-info">
+                        <span class="place-tag">Get in Touch</span>
+                        <h2>Let's Talk About Kabul</h2>
+                        <p>
+                            Have a story, a photograph, or information
+                            about a beautiful place in Kabul? Send us
+                            a message and help us share the city's story.
+                        </p>
+
+                        <div class="contact-detail">
+                            <strong>Our Website</strong>
+                            <span>Kabul Info</span>
+                        </div>
+
+                        <div class="contact-detail">
+                            <strong>Our Mission</strong>
+                            <span>Sharing Kabul's beauty, history, and culture.</span>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first-name">First Name</label>
+                                <input
+                                    type="text"
+                                    id="first-name"
+                                    name="first_name"
+                                    placeholder="Your first name"
+                                    autocomplete="given-name"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="last-name">Last Name</label>
+                                <input
+                                    type="text"
+                                    id="last-name"
+                                    name="last_name"
+                                    placeholder="Your last name"
+                                    autocomplete="family-name"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                autocomplete="email"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="What is your message about?"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                placeholder="Write your message here..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">
+                            Send Message &rarr;
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+
+                <div class="footer-about">
+                    <a href="#home" class="logo">Kabul<span>Info.</span></a>
+                    <p>
+                        Discover the beauty, history, and culture of
+                        Kabul. Celebrating the stories and heritage
+                        of Afghanistan's capital.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#places">Tourist Places</a></li>
+                        <li><a href="#past">Kabul Then</a></li>
+                        <li><a href="#history">Our History</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Explore More</h3>
+                    <ul class="footer-links">
+                        <li><a href="#places">Nature & Mountains</a></li>
+                        <li><a href="#places">Culture & Heritage</a></li>
+                        <li><a href="#contact">Share Your Story</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2026 Kabul Info. Made with love for Kabul, Afghanistan.
+                </p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
